@@ -1,0 +1,10 @@
+{
+  "name": "NexusCore ERP",
+  "description": "A ready-to-use, professional Enterprise Resource Planning solution with modules for inventory, sales, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "Inventory Management",
+    "Sales Tracking",
+    "User Analytics"
+  ]
+}

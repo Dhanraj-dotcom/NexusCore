@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Georgia:ital,wght@1,400&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Georgia", serif;
+
+  --color-nexus-bg: #f8fafc;
+  --color-nexus-ink: #0f172a;
+  --color-nexus-line: #e2e8f0;
+  --color-nexus-accent: #4f46e5;
+  --color-nexus-accent-dark: #3730a3;
+  --color-nexus-panel: #0f172a;
+}
+
+body {
+  @apply bg-nexus-bg text-nexus-ink font-sans antialiased overflow-hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CAC9C6;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #141414;
+}
+
